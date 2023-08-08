@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  /* background-color: #ffcd9e; */
+}
+
+main {
+  display: flex;
+  /* width: 100vw; */
+  background-color: #ffcd9e;
+  align-items: center;
+  /* margin-left: 20px; */
+  padding-left: 160px;
+  height: 600px;
+}
+
+footer {
+  display: flex;
+  background-color: #282828;
+  color: #fff;
+  justify-content: space-around;
+  padding: 30px;
+  height: 190px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 190%;
+}
+
+h1 {
+  color: #282828;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+  margin-top: 5px;
+}
+
+p {
+  color: #484848;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 32px */
+  margin-top: 20px;
+  padding-right: 73px;
+  /* margin-left: 20px; */
+}
+
+h3 {
+  color: #282828;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%; /* 32px */
+  margin-top: 20px;
+}
+
+input {
+  padding: 5px;
+  height: 40px;
+  color: #888;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 32px */
+  border: 4px solid #282828;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #282828;
+  border-radius: 4px;
+  height: 40px;
+  width: 164px;
+  /* padding: 5 px; */
+  margin-top: 30px;
+}
+
+#text {
+  color: #fff;
+  text-align: left;
+  /* font-family: Inter; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  margin-top: 25px;
+  padding-left: 45px;
+}
+
+.vector {
+  padding: 65px 89px 66px 92px;
+  justify-content: center;
+  align-items: center;
+}
